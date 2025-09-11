@@ -85,8 +85,11 @@ Ejecutar todas las celdas con Restart & Run All.
 
 ## 📂 Estructura del Repositorio
 ├── ProytectoFinal_DSII_Augusto_Parajon.ipynb   # Notebook principal
+
 ├── clima_tucuman_historico.csv                 # Dataset generado
+
 ├── presentacion_final.pdf                      # Presentación ejecutiva
+
 └── README.md                                   # Este archivo
 
 ## 👤 Autor
