@@ -51,12 +51,12 @@ El proyecto sigue la metodología **CRISP-DM**, integrando desde el análisis ex
 ---
 
 ## 📊 Resultados  
-- **Mejores modelos:** Logistic Regression y Gradient Boosting.  
+- **Mejor modelo:** Logistic Regression (F1 macro = 0.725).  
 - **Hallazgos clave:**  
   - La **temperatura aparente** supera en predictividad a la temperatura seca.  
   - Los **percentiles** son más robustos que los umbrales absolutos.  
-  - Los **clusters** identifican perfiles climáticos con patrones diferenciados.  
-- **Impacto en negocio:** permite anticipar picos de demanda, planificar inventario y optimizar campañas comerciales.  
+  - Los **clusters** identifican perfiles climáticos diferenciados.  
+- **Aplicación en negocio:** permite anticipar picos de demanda, planificar inventario y optimizar campañas comerciales.  
 
 ---
 
@@ -66,6 +66,30 @@ Ejecutar en **Google Colab** o entorno local con Python 3.10+.
 **Librerías principales:**  
 `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`, `xgboost`, `shap`  
 
-Instalación rápida en Colab:  
-```bash
+###Instalación rápida en Colab:  
+
 !pip install numpy pandas scikit-learn xgboost shap seaborn matplotlib --quiet
+
+## 🚀 Ejecución
+
+### Clonar el repositorio:
+
+git clone https://github.com/aparajon89/ProyectoFinal_DSII_Augusto_Parajon.git
+cd ProyectoFinal_DSII_Augusto_Parajon
+
+
+### Abrir la notebook en Jupyter o Colab:
+ProytectoFinal_DSII_Augusto_Parajon.ipynb
+
+Ejecutar todas las celdas con Restart & Run All.
+
+## 📂 Estructura del Repositorio
+├── ProytectoFinal_DSII_Augusto_Parajon.ipynb   # Notebook principal
+├── clima_tucuman_historico.csv                 # Dataset generado
+├── presentacion_final.pdf                      # Presentación ejecutiva
+└── README.md                                   # Este archivo
+
+## 👤 Autor
+
+Augusto Parajón
+Proyecto Final – Data Science II
